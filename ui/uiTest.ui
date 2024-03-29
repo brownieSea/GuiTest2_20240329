@@ -25,11 +25,11 @@
     </property>
     <property name="font">
      <font>
-      <family>D2Coding</family>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <pointsize>13</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#333; color:#fff; font-size:13pt; border:1px solid #e1e1e1; border-radius:10px;</string>
     </property>
     <property name="text">
      <string>Button 1</string>
@@ -46,11 +46,11 @@
     </property>
     <property name="font">
      <font>
-      <family>D2Coding</family>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <pointsize>13</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#333; color:#fff; font-size:13pt;background-color:#333; color:#fff; font-size:13pt; border:1px solid #e1e1e1; border-radius:10px;</string>
     </property>
     <property name="text">
      <string>Button 2</string>
@@ -72,6 +72,9 @@
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#444; background-color:#fff;border:3px solid #999;border-radius:10px</string>
     </property>
     <property name="text">
      <string>버튼을 클릭하세요</string>

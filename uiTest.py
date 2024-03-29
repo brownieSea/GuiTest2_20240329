@@ -17,7 +17,6 @@ class MyWindow(QMainWindow, form_class):
         #(self.button2Click) 부분에서 button2Click 이 함수이므로 자동완성으로 뒤에 () 붙는데 ()는 빼줘야한다
         self.statusBar().showMessage("copyleft")
 
-
     def button1Click(self):
         self.LabelTxt.setText("Hello World!!!")
     def button2Click(self):
